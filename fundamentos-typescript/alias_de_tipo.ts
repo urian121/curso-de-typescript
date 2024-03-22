@@ -3,10 +3,11 @@
 type IdUser = number | string;
 type Username = string;
 
+let idUser: IdUser;
 idUser = 10;
 idUser = '10';
 
-function getUserNameById(id: number | string): Username {
-	//Logica de negocio
-	return 'textoPorEjemplo'
+function getUserNameById(id: IdUser): Username {
+    // Lógica de negocio
+    return 'textoPorEjemplo';
 }
